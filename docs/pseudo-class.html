@@ -1,49 +1,107 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Pseudo Class Selectors</title>
-<style>
-/* Styles go here. */
-header li{
-  list-style: none;
+  <meta charset="utf-8">
+  <title>Pseudo Class Selectors</title>
+  <style>
+    /* Styles go here. */
+    header li {
+      list-style: none;
+    }
+
+    a:link, a:visited {
+      text-decoration: none;
+      background-color: green;
+      border: 3px solid black;
+      color: white;
+      display:block;
+      text-align: center;
+      margin-bottom: 10px;
+      width: 200px;
+
+
+    }
+  a:hover{
+    color: black;
+    background-color: orange;
+  }
+  a:active{
+    background-color: purple;
+  }
+
+  header li:nth-child(2){
+    font-size: 20px;
+  }
+  section > div:nth-child(odd){
+    background-color: orange;
+  }
+  section div:nth-child(10):hover{
+    background-color: red;
+
+  }
+
+  body>div, span {
+  background-color: blue;
+
 }
 
-</style>
+a:hover > div > div > div > div > div {
+  font-size: 24px;
+}
+
+
+  </style>
 </head>
+
 <body>
-<h1>Pseudo Class Selectors</h1>
+  <h1>Pseudo Class Selectors</h1>
 
-<header>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
-    <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
-  </ul>
-</header>
+  <header>
 
-<section>
-  <div>DIV 1</div>
-  <div>DIV 2</div>
-  <div>DIV 3</div>
-  <div>DIV 4</div>
-  <div>DIV 5</div>
-  <div>DIV 6</div>
-  <div>DIV 7</div>
-  <div>DIV 8</div>
-  <div>DIV 9</div>
-  <div>DIV 10</div>
-  <div>DIV 11</div>
-  <div>DIV 12</div>
-  <div>DIV 13</div>
-  <div>DIV 14</div>
-  <div>DIV 15</div>
-  <div>DIV 16</div>
-  <div>DIV 17</div>
-  <div>DIV 18</div>
-  <div>DIV 19</div>
-  <div>DIV 20</div>
-</section>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li> <a href="https://www.twitch.tv/loltyler1" target="_blank">loltyler1</a></li>
+      <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
+      <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
+    </ul>
+  </header>
+  <a>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+    <div>Div 4</div>
+    <div>Div 5</div>
+    <div>Div 6</div>
+  </a>
+
+  <div>Hello</div>
+  <span>World!</span>
+  <img src="" alt="">
+
+  <section>
+    <div>DIV 1</div>
+    <div>DIV 2</div>
+    <div>DIV 3</div>
+    <div>DIV 4</div>
+    <div>DIV 5</div>
+    <div>DIV 6</div>
+    <div>DIV 7</div>
+    <div>DIV 8</div>
+    <div>DIV 9</div>
+    <div>DIV 10</div>
+    <div>DIV 11</div>
+    <div>DIV 12</div>
+    <div>DIV 13</div>
+    <div>DIV 14</div>
+    <div>DIV 15</div>
+    <div>DIV 16</div>
+    <div>DIV 17</div>
+    <div>DIV 18</div>
+    <div>DIV 19</div>
+    <div>DIV 20</div>
+  </section>
 
 </body>
+
 </html>
