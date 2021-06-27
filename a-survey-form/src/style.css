@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #f3f3f3;
+  line-height: 1.2;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 2rem auto 0 auto;
+}
+
+.header {
+  padding: 0 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.clue {
+  margin-left: 0.2rem;
+  font-size: 1rem;
+
+  color: #e7e7e7;
+}
+
+.text-center {
+  text-align: center;
+  padding: 5px;
+}
+
+form {
+  background: rgba(27, 27, 50, 0.5);
+  padding: 2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.form-group {
+  margin: 0 auto 1.2rem auto;
+  padding: 0.2rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.2rem 0.5rem;
+  color: grey;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+option {
+  /* Whatever color  you want */
+  background-color: #82caff;
+}
+
+.form-control:focus {
+  border-color: #80bdee;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.5);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.6rem;
+  min-height: 1.6rem;
+  min-width: 1.6rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  background: #37af65;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
