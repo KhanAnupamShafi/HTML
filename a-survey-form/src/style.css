@@ -133,6 +133,7 @@ option {
   min-height: 120px;
   width: 100%;
   padding: 0.6rem;
+  color: black;
 }
 
 .submit-button {
