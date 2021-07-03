@@ -51,6 +51,10 @@ textarea {
   line-height: inherit;
 }
 
+input-textarea{
+color:fff;
+}
+
 button {
   border: none;
 }
