@@ -23,38 +23,86 @@ p {
   font-size: 1.2em;
 }
 
+.wave-container {
+  position: relative;
+
+  /* background: #09f;
+  color: #fff; */
+  text-align: center;
+  overflow: hidden;
+}
+
+.nav {
+  text-align: justify;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(#0ba88e, rgb(0, 131, 113));
+}
+.nav-list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav-list li {
+  text-align: center;
+  width: 120px;
+}
+.nav-list a {
+  color: whitesmoke;
+  background-image: linear-gradient(to left, #0ba88e, rgb(0, 131, 113));
+  padding: 1.1em;
+
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Introduction section starts */
+
 .Intro {
   display: flex;
+  flex-direction: row-reverse;
 
   margin-bottom: 100px;
+
   justify-content: center;
+  max-height: 100%;
 }
 .container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: auto 0;
-  padding: 20px 10px;
+
+  padding-left: 5%;
   max-width: 40%;
 }
 .img-width {
-  margin-top: auto;
-  width: 200px;
+  padding-bottom: 10px;
+  width: 220px;
   max-width: 100%;
 }
 .link-btn {
-  position: absolute;
-  right: 60px;
-  bottom: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background-image: linear-gradient(
     40deg,
     rgba(155, 54, 166, 1) 0%,
     rgba(81, 34, 224, 1) 100%
   );
-  padding: 10px 15px;
+  padding: 15px 0;
   text-decoration: none;
   font-weight: 700;
-  max-width: 40%;
+  width: 100%;
   color: #fbe6d3;
   border-radius: 10px;
 }
+
+/* intro ends */
