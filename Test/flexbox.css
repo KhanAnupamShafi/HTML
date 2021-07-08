@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid goldenrod;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.box {
+    width: 33.33333%;
+    /* padding: 10px; */
+    font-size: 5em;
+    /* margin: auto 20px; */
+    text-shadow: 2px 2px rgb(139, 143, 134);
+    text-align: center;
+    color: azure;
+}
+
+.box-1 {
+    background-color: aqua;
+}
+
+.box-2 {
+    background-color: blue;
+}
+
+.box-3 {
+    background-color: brown;
+}
+
+.box-4 {
+    background-color: cadetblue;
+}
+
+.box-5 {
+    background-color: chocolate;
+}
+
+.box-6 {
+    background-color: cornflowerblue;
+}
+
+.box-7 {
+    background-color: hotpink;
+}
+
+.box-8 {
+    background-color: khaki;
+}
+
+.box-9 {
+    background-color: slateblue;
+}
+
+.box-10 {
+    background-color: darkslategray;
+}
