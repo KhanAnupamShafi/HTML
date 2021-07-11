@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+    
+    @keyframes slidiing {
+        from {
+            top: 0;
+        }
+        to {
+            top: 0;
+        }
+    }
+    
+    .bat {
+        border: 1px solid green;
+        transform: rotate(30deg);
+        transform-origin: top;
+    }
+    
+    fieldset:hover .bat {
+        transform: rotate(-30deg);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    div {
+        width: 200px;
+        height: 200px;
+        border: 1px solid grey;
+        margin: 10px;
+        font-size: 1.9em;
+    }
+    
+    .transform {
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <h1>Animation</h1>
+        <a href="">click me</a>
+        <img class="bat" src="./Assets/images.jfif" alt="" />
+    </fieldset>
+
+    <fieldset>
+        <div class="transform">
+            <div class="inner">box-1</div>
+        </div>
+        <div class="transform">
+            <div class="inner">box-2</div>
+        </div>
+        <div class="transform">
+            <div class="inner">box-3</div>
+        </div>
+    </fieldset>
+</body>
+
+</html>
